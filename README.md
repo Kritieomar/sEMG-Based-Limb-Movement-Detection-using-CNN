@@ -83,6 +83,13 @@ The CNN outputs a probability distribution over possible movement classes. This 
 - **Dropout:** A dropout layer with a 0.5 rate to prevent overfitting.
 - **Dense Output Layer:** A fully connected softmax layer with 6 output units (for 6 movement classes).
 
+## 📈 Results
+
+| Dataset           | Accuracy | Channels |
+|------------------|----------|----------|
+| UCI Dataset       | **96%**  | 16       | 
+| Lab-Recorded Data | **81%**  | 2        | 
+
 
 
 
