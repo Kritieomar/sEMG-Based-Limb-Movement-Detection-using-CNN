@@ -24,7 +24,6 @@ We use the [UCI sEMG for Basic Hand Movements dataset](https://archive.ics.uci.e
 - 2-channel EMG
 - Sampling rate: 500 Hz
 
-This dataset provides high-quality multichannel EMG data suitable for deep learning.
 
 ### 2. Lab-Recorded 2-Channel sEMG Dataset
 
@@ -85,10 +84,10 @@ The CNN outputs a probability distribution over possible movement classes. This 
 
 ## 📈 Results
 
-| Dataset           | Accuracy | Channels |
-|------------------|----------|----------|
-| UCI Dataset       | **96%**  | 16       | 
-| Lab-Recorded Data | **81%**  | 2        | 
+| Dataset           | Accuracy |
+|------------------|----------|
+| UCI Dataset       | **96%**  |        
+| Lab-Recorded Data | **81%**  |  
 
 
 
